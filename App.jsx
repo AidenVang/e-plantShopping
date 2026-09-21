@@ -8,12 +8,12 @@ const App = () => {
   return (
     <Router>
       <div className="app-container">
-        <h1>Paradise Nursery</h1>
+        <h1>Welcome to Paradise Nursery</h1>
         <p>Your one‑stop shop for beautiful plants</p>
 
-        <Link to="/products">
-          <button className="get-started-btn">Get Started</button>
-        </Link>
+          <button className="get-started-btn" onClick={handleGetStarted}>
+            Get Started
+          </button>
       </div>
 
       {/* Navigation Bar */}
